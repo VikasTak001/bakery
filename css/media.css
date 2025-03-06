@@ -84,4 +84,18 @@
         top: 0px;
         background-color: white;
     }
-}x
+    .main{
+        height: 100vh;
+    }
+    .h1-1{
+        font-size: 70px;
+        line-height: 85px;
+    }
+    .bannerContent h5{
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .bannerContent h6{
+        font-size: 14px;
+    }
+}

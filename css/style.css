@@ -11,14 +11,25 @@ a {
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #d1ab80;
 }
 
 .main {
     max-width: 100vw;
     margin: auto;
+    overflow: hidden;
     height: 80vh;
     background: url(../img/banner-bg.jpg) center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .overlay {
@@ -66,7 +77,8 @@ body {
 .icons i:hover {
     color: #d1ab7f;
 }
-.icons i{
+
+.icons i {
     transition: 0.3s;
 }
 
@@ -113,9 +125,10 @@ header {
     color: white;
     transform: translateX(-100%);
 }
-.navMenuVisible{
+
+.navMenuVisible {
     transform: translateX(0%);
-}   
+}
 
 .dropDown {
     gap: 10px;
@@ -167,7 +180,8 @@ header {
 .open {
     height: 180px;
 }
-.fullopen{
+
+.fullopen {
     height: 280px;
 }
 
@@ -196,14 +210,17 @@ header {
     opacity: 1;
     visibility: visible;
 }
-#blog{
+
+#blog {
     width: 85%;
     height: 20px;
 }
-.relative{
+
+.relative {
     position: relative;
 }
-.optHidden{
+
+.optHidden {
     gap: 25px;
     font-weight: 500;
     text-transform: uppercase;
@@ -220,61 +237,73 @@ header {
     left: 0;
     position: relative;
 }
-.optVisible{
-    visibility: visible;    
-    opacity: 1;
-}
-#lavel2:hover .optHidden{
+
+.optVisible {
     visibility: visible;
     opacity: 1;
 }
 
-.opt{
+#lavel2:hover .optHidden {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opt {
     height: max-content;
     max-width: 150px;
     overflow: hidden;
 }
-.lvl2{
+
+.lvl2 {
     height: 30px;
 }
-#lavel2{
+
+#lavel2 {
     align-items: flex-start;
 }
-.banner{
+
+.banner {
     width: 100%;
     padding: 50px;
     height: 70vh;
 }
-.text-uppercase{
+
+.text-uppercase {
     text-transform: uppercase;
 }
-.bannerContent{
+
+.bannerContent {
     color: white;
     margin: auto;
     width: 95%;
     text-align: center;
 }
-.bannerContent h6{
+
+.bannerContent h6 {
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 1.5px;
 }
-.hr{
+
+.hr {
     width: 100%;
     height: 1px;
     background-color: #d1ab80;
 }
-.h1-1{
-    font-size:47px;
+
+.h1-1 {
+    font-size: 47px;
     line-height: 52px;
 }
-.bannerContent h5{
+
+.bannerContent h5 {
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 1.5px;
 }
-.chkBtn{
+
+.chkBtn {
     border: 2px solid #d1ab80;
     border-radius: 0px;
     outline: none;
@@ -285,8 +314,129 @@ header {
     transition: 0.3s;
     font-size: 18px;
 }
-.chkBtn:hover{
+
+.chkBtn:hover {
     background-color: transparent;
     color: white;
     border: 2px solid white;
+}
+
+.main-2 {
+    max-width: 1140px;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.theamColor {
+    color: #dfa25e;
+}
+
+.m2t1 {
+    font-size: 14px;
+}
+
+.m2t2 {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.m2t2-h1 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #212121;
+    margin: 20px 0px;
+}
+
+.m2t2t1 {
+    font-weight: 300;
+}
+
+.m2t2 p {
+    margin: 20px 0px;
+    color: #787878;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.para {
+    color: #787878;
+    width: max-content;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+    margin: auto;
+}
+
+.chkbtn1 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.chkbtn1:hover {
+    border: 2px solid #d1ab80;
+    color: #d1ab80;
+}
+
+.m2t2a {
+    position: absolute;
+    right: 0;
+    margin-top: -300px;
+    display: none;
+}
+
+.main-3 {
+    margin: auto;
+    max-width: 1140px;
+    text-align: center;
+}
+
+.main-3bg{
+    width: 100%;
+    background-color: #fafaff;
+    padding: 50px 0px;/*100*/
+}
+.m-auto {
+    margin: auto;
+}
+
+.main-3 .m2t2-h1 {
+    margin: 12px auto;
+}
+
+.m3container {
+    width: 100%;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.m3c-boxes{
+    width: 90%;
+}
+.m3c-b-img img{
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.bold{
+    font-weight: 600;
+}
+.m3container .para{
+    width: 100%;
+    text-align: center ;
+    margin: 10px auto;
+}
+.m3container .hover-color{
+    margin: 10px auto;
+    color: #212121;
+    font-size: 18px;
+}
+.m3c-boxes:hover img{
+    transform: scale(1.1);
+}
+.m3c-boxes:hover .hover-color{
+    color: #d1ab80;
 }

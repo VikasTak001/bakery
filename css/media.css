@@ -1,0 +1,87 @@
+@media (min-width: 991px) {
+    .top {
+        display: flex;
+    }
+
+    .menuBars {
+        display: none;
+    }
+
+    .NavMenu {
+        gap: 25px;
+        font-size: 12px !important;
+        padding-right: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: 0.3s;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: inherit;
+        height: inherit;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background-color: transparent;
+        width: max-content;
+        font-size: inherit;
+        color: black;
+        transform: inherit;
+    }
+
+
+    .dropDown:hover .rotate {
+        transform: rotate(-180deg);
+    }
+
+    .dropDown {
+        transition-delay: 0.3s;
+    }
+
+    .dropDown:hover .dd-menu {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .dd-menu {
+        position: absolute;
+        transition-delay: 0.3s;
+        top: 100%;
+        margin: 0;
+        visibility: hidden;
+        opacity: 0;
+        padding: 20px;
+        width: 200px;
+        background-color: white;
+    }
+
+    header {
+        position: relative;
+    }
+
+    #blog {
+        width: max-content;
+    }
+
+    .NavElements {
+        padding: 0;
+    }
+
+    .dropDown {
+        height: inherit;
+    }
+
+    .optHidden {
+        font-size: 12px;
+        padding-right: 100px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.281);
+        color: black;
+        position: absolute;
+        left: -177px;
+        visibility: hidden;
+        opacity: 0;
+        top: 0px;
+        background-color: white;
+    }
+}x

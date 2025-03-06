@@ -84,38 +84,67 @@
         top: 0px;
         background-color: white;
     }
-    .main{
+
+    .main {
         height: 100vh;
     }
-    .h1-1{
+
+    .h1-1 {
         font-size: 70px;
         line-height: 85px;
     }
-    .bannerContent h5{
+
+    .bannerContent h5 {
         font-size: 12px;
         line-height: 17px;
     }
-    .bannerContent h6{
+
+    .bannerContent h6 {
         font-size: 14px;
     }
-    .m2t2{
+
+    .m2t2 {
         width: 72%;
         margin: 0;
     }
-    .m2t2 p{
+
+    .m2t2 p {
         text-align: left;
     }
-    .m2t2a{
+
+    .m2t2a {
         display: block;
     }
-    .main-3{
+
+    .main-3 {
         margin-top: 5px;
     }
-    .m3container{
+
+    .m3container {
         flex-direction: row;
     }
-    .main-3bg{
+
+    .main-3bg {
         padding: 100px;
+    }
+
+    .main-4 {
+        flex-direction: row;
+        padding: 100px;
+    }
+    .m4-left{
+        width: 45%;
+        margin: 0;
+    }
+    .m4-right{
+        width: 50%;
+        margin: 0;
+    }
+    #vdoOpen video{
+        width: inherit;
+        height: inherit;
+        max-height: 400px;
+        max-width: 700px;
     }
 }
 
@@ -123,7 +152,8 @@
     .m2t2a {
         margin: 0;
     }
-    .main-3{
+
+    .main-3 {
         margin-top: 400px;
     }
 }

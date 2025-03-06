@@ -8,6 +8,9 @@ var menu = document.querySelector('.NavMenu');
 var opt = document.querySelector('#optHidden');
 var lavel2 = document.querySelector('#lavel23');
 var a = true;
+var body = document.querySelector('body');
+var vodo = document.querySelector('#vdo');
+var ain = document.querySelector('#ain');
 
 slidMenuBlog.addEventListener(
     'click',
@@ -16,7 +19,7 @@ slidMenuBlog.addEventListener(
         rotate.classList.toggle('rotation');
         if (!a) {
             slidMenuBloger.classList.toggle('fullopen');
-            a =!a;
+            a = !a;
         }
     }
 );
@@ -27,6 +30,7 @@ menuBars.addEventListener(
         bars.classList.toggle('menuBarsHide');
         cross.classList.toggle('crossVisiable');
         menu.classList.toggle('navMenuVisible');
+        body.classList.toggle('body');
     }
 );
 
@@ -37,5 +41,21 @@ lavel2.addEventListener(
         slidMenuBloger.classList.toggle('fullopen');
         a = !a;
         return a;
+    }
+);
+var vdoOpen = document.querySelector('#vdoOpen');
+
+vodo.addEventListener(
+    'click',
+    function () {
+        vdoOpen.classList.add('dark-overlayVisible');
+        body.classList.add('body');
+    }
+);
+vdoOpen.addEventListener(
+    'click',
+    function () {
+        vdoOpen.classList.remove('dark-overlayVisible');
+        body.classList.remove('body');
     }
 );

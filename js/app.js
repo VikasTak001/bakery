@@ -11,8 +11,10 @@ var a = true;
 var body = document.querySelector('body');
 var vodo = document.querySelector('#vdo');
 var ain = document.querySelector('#ain');
-var dots = document.querySelectorAll('.m5dot');
-var m5cBoxes = document.querySelectorAll('.m5-cBoxes');
+var mobi = 2;
+if (window.innerWidth <= 991){
+    mobi = 1;
+}
 
 slidMenuBlog.addEventListener(
     'click',
@@ -61,36 +63,16 @@ vdoOpen.addEventListener(
         body.classList.remove('body');
     }
 );
-for(dot of dots){
-    dot.addEventListener(
-        'click',
-        function () {
-            var thisNum = Number(this.id);
-            dotsIndex = thisNum;
-            for(dot of dots){
-                dot.classList.remove('m5dotActive');
-            }
-            this.classList.add('m5dotActive');
-            for(var i=0; i<m5cBoxes.length; i++){
-                m5cBoxes[i].style.transform = `translateX(-${thisNum * 108.3}%)`;
-            }
-        }
-    );
-}
-var dotsIndex = 1;
-setInterval(
-    function(){
-        for(dot of dots){
-            dot.classList.remove('m5dotActive');
-        }
-        dots[dotsIndex].classList.add('m5dotActive');
-        for(var ii=0; ii<m5cBoxes.length; ii++){
-            m5cBoxes[ii].style.transition = `1s`;
-            m5cBoxes[ii].style.transform = `translateX(-${dotsIndex * 108.3}%)`;
-        }
-        dotsIndex++;
-        if(dotsIndex == dots.length){
-            dotsIndex = 0;
-        }
-    },5000
+$('.m5-container').slick(
+    {
+        infinite: true,
+        slidesToShow: mobi,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        dots: true,
+        arrows: false,
+        pauseOnHover: false,
+        speed: 1000
+    }
 );

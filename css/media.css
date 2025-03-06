@@ -146,18 +146,6 @@
         max-height: 400px;
         max-width: 700px;
     }
-    .main-5{
-        padding: 100px;
-    }
-    .m5-cBoxes {
-        width: 45%;
-    }
-    .m5-cBox1{
-        margin-left: 0%;
-    }
-    .mobdots{
-        display: none;
-    }
 }
 
 @media (max-width: 1676px) and (min-width: 991px) {

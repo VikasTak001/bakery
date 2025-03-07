@@ -12,6 +12,7 @@ var body = document.querySelector('body');
 var vodo = document.querySelector('#vdo');
 var ain = document.querySelector('#ain');
 var header = document.querySelector('header');
+var m7mBoxes = document.querySelectorAll('.m7mBoxes');
 
 slidMenuBlog.addEventListener(
     'click',
@@ -83,10 +84,28 @@ $('.m5-container').slick(
 window.addEventListener(
     'scroll',
     function () {
-        if (window.scrollY > 79) {
+        if (window.scrollY>79){
             header.classList.add('headerActive');
-        } else {
+        }else{
             header.classList.remove('headerActive');
         }
     }
-)
+);
+for(m7mBx of m7mBoxes){
+    m7mBx.addEventListener(
+        'click',
+        function () {
+            for(m7mBxx of m7mBoxes){
+                m7mBxx.classList.remove('m7mBoxesActive');
+            }
+            this.classList.add('m7mBoxesActive');
+            var m7mBoxesId = this.id.slice(0, -1);
+            var m7container = document.querySelector('#'+m7mBoxesId);
+            var m7containerAll = document.querySelectorAll('.m7container');
+            for(bvc of m7containerAll){
+                bvc.classList.remove('m7containerActive');
+            }
+            m7container.classList.add('m7containerActive');
+        }
+    );
+}

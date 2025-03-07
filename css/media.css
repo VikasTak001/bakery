@@ -163,23 +163,43 @@
     .hov {
         height: 100%;
     }
-    footer{
+
+    footer {
         padding: 100px 30px;
     }
-    .ftContainer{
+
+    .ftContainer {
         width: 40%;
         margin-top: 0;
     }
-    .ftContainer-3{
+
+    .ftContainer-3 {
         width: 17%;
         margin-top: 0;
     }
-    .mainAboutUs{
+
+    .mainAboutUs {
         max-height: 40vh;
     }
-    .bannerAboutUS{
+
+    .bannerAboutUS {
         padding: 20px;
         height: 40vh;
+    }
+
+    .m7cBoxes {
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .m7cB-left {
+        max-width: 65%;
+    }
+
+    .m7cB-right {
+        width: 20%;
+        margin: 0; 
+        margin-top: 20px;
     }
 }
 

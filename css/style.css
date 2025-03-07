@@ -790,3 +790,69 @@ footer{
     padding: 20px;
     height: 40vh;
 }
+.main-7{
+    width: 100%;
+    padding: 100px 20px;
+    background: url(../img/pattern-bg.jpg) center center;
+    background-size: cover;
+}
+.main-7Child{
+    margin: auto;
+    max-width: 1140px;
+}
+.m7mBoxes{
+    padding: 7px 25px;
+    color: black;
+    transition: 0.3s;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.m7Menues{
+    width: max-content;
+    gap: 30px;
+}
+.m7mBoxesActive{
+    color: white;
+    background-color: #d1ab80;
+}
+.m7cBoxes{
+    background: white;
+    padding: 10px 50px 30px 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 30px;
+}
+.m7cB-left{
+    max-width: 100%;
+}
+.m7cB-lH1{
+    margin: 10px 0px 15px 0px;
+}
+.m7cB-right{
+    width: 70%;
+    margin: auto;
+}
+.m7container{
+    margin-top: 100px;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.m7containerActive{
+    visibility: visible;
+    opacity: 1;
+    position: static;
+
+}
+.para-m7{
+    width: 100%;
+    font-size: 14px;
+}
+.m7cB-rBBox2{
+    margin-top: 15px;
+}

@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header>
+        <div class="topNav flex-between-center">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div id="menuBars" class="menuBars">
+                <i id="bars" class="fa-solid fa-bars pointer menuBars"></i>
+                <i id="cross" class="fa-solid fa-xmark pointer cross"></i>
+            </div>
+            <div class="NavMenu flex">
+                <a href="index.html">
+                    <div class="NavElements">Home</div>
+                </a>
+                <a href="aboutUS.html">
+                    <div class="NavElements">About</div>
+                </a>
+                <a href="#">
+                    <div class="NavElements">Menu</div>
+                </a>
+                <a href="#">
+                    <div class="NavElements">Team</div>
+                </a>
+                <div id="bloger" class="flex-wrap dropDown pointer NavElements">
+                    <div id="blog">Blog</div>
+                    <div style="height: 20px;">
+                        <i class="fa-solid fa-angle-down rotate pointer"></i>
+                    </div>
+                    <div class="dd-menu flex-wrap">
+                        <a href="#">
+                            <div class="flex-between-center hover-color">
+                                <div>
+                                    Blog Home
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="flex-between-center hover-color">
+                                <div>
+                                    Blog Single
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div id="lavel2" class="flex-between-center hover-color relative">
+                                <div class="opt">
+                                    <div class="lvl2" id="lavel23">
+                                        Lavel 2
+                                    </div>
+                                    <div class="optHidden" id="optHidden">
+                                        <div class="hover-color">
+                                            Item 1
+                                        </div>
+                                        <div class="hover-color">
+                                            Item 2
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="NavElements">Elements</div>
+                </a>
+                <a href="#">
+                    <div class="NavElements">Contact</div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+    <div class="main mainAboutUs">
+        <div class="overlay">
+            <div class="topContainer">
+                <div class="top flex-between-center">
+                    <div class="icons flex-wrap">
+                        <a href="#"><i class="fa-brands fa-facebook-f pointer"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter pointer"></i></a>
+                        <a href="#"><i class="fa-brands fa-dribbble pointer"></i></a>
+                        <a href="#"><i class="fa-brands fa-behance pointer"></i></a>
+                    </div>
+                    <div class="contact flex-between-center">
+                        <a href="#"></a>
+                        <div class="flex-center">
+                            <i class="fa-solid fa-phone pointer"></i>
+                            <p class="pointer">Call us: +953 012 3654 896</p>
+                        </div></a>
+                        <a href="#">
+                            <div class="flex-center">
+                                <i class="fa-solid fa-envelope pointer"></i>
+                                <p class="pointer">Email: support@colorlib.com</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- BANNER START -->
+                <div class="banner bannerAboutUS flex-between-center">
+                    <div class="bannerContent">
+                        <h1 class="h1-1 default">Menu List</h1>
+                        <h5 class="default" style="font-size: 15px; margin-top: 10px;">
+                            <a href="index.html">Home</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                            Menu
+                        </h5>
+
+                    </div>
+                </div>
+                <!-- BANNER END -->
+            </div>
+        </div>
+    </div>
+    <div class="main-7">
+        <div class="main-7Child">
+            <div class="m7Menues m-auto flex-between-center">
+                <div id="pizzaa" class="m7mBoxes pointer m7mBoxesActive">Pizza</div>
+                <div id="breadss" class="m7mBoxes pointer">Breads</div>
+                <div id="burgerss" class="m7mBoxes pointer">Burgers</div>
+                <div id="chickenn" class="m7mBoxes pointer">Chicken</div>
+            </div>
+            <div class="m7container m7containerActive" id="pizza">
+                <!-- box 1 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Americano
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 1 end -->
+                <!-- box 2 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Tunisia
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 2 end -->
+                <!-- box 3 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Beef lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 3 end -->
+                <!-- box 4 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Chicken lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 4 end -->
+                <!-- box 5 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Meatball Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 5 end -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Bakery special Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 6 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Alfredo
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 6 end -->
+                <!-- box 7 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Cheese lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 7 end -->
+            </div>
+            <div class="m7container" id="breads">
+                <!-- box 1 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Breads Americano
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 1 end -->
+                <!-- box 2 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Tunisia
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 2 end -->
+                <!-- box 3 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Beef lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 3 end -->
+                <!-- box 4 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Chicken lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 4 end -->
+                <!-- box 5 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Meatball Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 5 end -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Bakery special Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 6 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Alfredo
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 6 end -->
+                <!-- box 7 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Cheese lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 7 end -->
+            </div>
+            <div class="m7container" id="burgers">
+                <!-- box 1 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Americano
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 1 end -->
+                <!-- box 2 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Tunisia
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 2 end -->
+                <!-- box 3 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Beef lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 3 end -->
+                <!-- box 4 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Chicken lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 4 end -->
+                <!-- box 5 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Meatball Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 5 end -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Bakery special Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 6 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Alfredo
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 6 end -->
+                <!-- box 7 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Cheese lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 7 end -->
+            </div>
+            <div class="m7container" id="chicken">
+                <!-- box 1 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Americano
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 1 end -->
+                <!-- box 2 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Tunisia
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 2 end -->
+                <!-- box 3 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Beef lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 3 end -->
+                <!-- box 4 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Chicken lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 4 end -->
+                <!-- box 5 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Meatball Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 5 end -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Bakery special Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 6 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Pizza Alfredo
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 6 end -->
+                <!-- box 7 start -->
+                <div class="m7cBoxes flex-between-center">
+                    <div class="m7cB-left big bold">
+                        <div class="m7cB-lH1 default">
+                            Cheese lovers Pizza
+                        </div>
+                        <p class="para para-m7 default">
+                            Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is
+                            becoming more common due to rapid advance.
+                        </p>
+                    </div>
+                    <div class="m7cB-right flex-between-center">
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big bold flex-center">
+                                6"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $15
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 default big flex-center bold">
+                                10"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $20
+                            </div>
+                        </div>
+                        <div class="m7cB-rBoxes">
+                            <div class="m7cB-rBBox1 flex-center default big bold">
+                                14"
+                            </div>
+                            <div class="m7cB-rBBox2 default big bold theamColor">
+                                $25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 7 end -->
+            </div>
+        </div>
+    </div>
+    <div class="main-4 flex-between-center">
+        <div class="m4-left">
+            <div class="m2t1 default theamColor text-uppercase">
+                Brand new app to blow your mind
+            </div>
+            <h1 class="m4-h1 default">
+                We’ve made a life
+                that will change you
+            </h1>
+            <div class="bold small default">
+                We are here to listen from you deliver exellence
+            </div>
+            <p class="para default">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut labore et
+                dolore magna aliqua.
+            </p>
+            <a href="#">
+                <button class="chkBtn chkbtn2 pointer">Get Started Now</button>
+            </a>
+        </div>
+        <div class="m4-right">
+            <a class="" id="ain">
+                <div id="vdo" class="vdo flex-center default">
+                    <img class="pointer" src="img/play.png" alt="">
+                </div>
+                <div id="vdoOpen" class="dark-overlay flex-center">
+                    <video src="img/vdo.mp4" controls></video>
+                </div>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer flex-wrap">
+            <div class="ftContainer">
+                <div class="ftcH1 big bold default">About Us</div>
+                <div class="small default ftcT1">If you own an Iphone, you’ve probably already worked out how much fun
+                    it is to use it
+                    to watch movies-it has that.</div>
+            </div>
+            <div class="ftContainer">
+                <div class="ftcH1 big bold default">Newsletter</div>
+                <div class="small default ftcT1" style="margin-bottom: 10px;">Stay update with our latest</div>
+                <div class="flex-wrap Email">
+                    <input type="text" class="Emailinput" name="" id="" placeholder="Email Address">
+                    <div class="Emailbtn">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="ftContainer-3">
+                <div class="ftcH1 big bold default">Fllow Us</div>
+                <div class="small default ftcT1" style="margin-bottom: 10px;">Let Us Be Social</div>
+                <div class="icons iconsXfooter flex-wrap">
+                    <a href="#"><i class="fa-brands fa-facebook-f pointer"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter pointer"></i></a>
+                    <a href="#"><i class="fa-brands fa-dribbble pointer"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance pointer"></i></a>
+                </div>
+            </div>
+            <div class="copyright small">
+                Copyright © 2025 All rights reserved | This template is made with
+                <i class="fa-regular fa-heart theamColor"></i>
+                By
+                <font class="theamColor">Vikas Tak</font>
+            </div>
+        </div>
+
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/app.js"></script>
+
+</html>

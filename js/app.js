@@ -62,12 +62,12 @@ vdoOpen.addEventListener(
 $('.m5-container').slick(
     {
         infinite: true,
-        slidesToShow: 1,
+        slidesToShow: 2,
         responsive: [
             {
                 breakpoint: 991,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             }],
         slidesToScroll: 1,

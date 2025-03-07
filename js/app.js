@@ -11,6 +11,7 @@ var a = true;
 var body = document.querySelector('body');
 var vodo = document.querySelector('#vdo');
 var ain = document.querySelector('#ain');
+var header = document.querySelector('header');
 
 slidMenuBlog.addEventListener(
     'click',
@@ -79,3 +80,13 @@ $('.m5-container').slick(
         speed: 1000
     }
 );
+window.addEventListener(
+    'scroll',
+    function () {
+        if (window.scrollY>79){
+            header.classList.add('headerActive');
+        }else{
+            header.classList.remove('headerActive');
+        }
+    }
+)

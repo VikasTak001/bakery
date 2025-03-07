@@ -83,9 +83,9 @@ $('.m5-container').slick(
 window.addEventListener(
     'scroll',
     function () {
-        if (window.scrollY>79){
+        if (window.scrollY > 79) {
             header.classList.add('headerActive');
-        }else{
+        } else {
             header.classList.remove('headerActive');
         }
     }

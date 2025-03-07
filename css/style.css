@@ -783,3 +783,10 @@ footer{
     margin-top: 20px;
     color: white;
 }
+.mainAboutUs{
+    max-height: 40vh;
+}
+.bannerAboutUS{
+    padding: 20px;
+    height: 40vh;
+}

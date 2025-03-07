@@ -690,7 +690,7 @@ header {
 }
 
 .m6ct1 {
-    color: #787878;
+    color: #e9bcbc;
     font-weight: 300;
 }
 
@@ -709,9 +709,61 @@ header {
     transition: 0.3s;
     width: 100%;
     height: 300px;
-    /*100%*/
 }
 
 .m6-cboxes:hover .m6cb-img img {
     transform: scale(1.1);
+}
+footer{
+    width: 100%;
+    background-color: #04091f;
+    padding: 0px 30px 50px 30px;
+}
+.footer{
+    margin: auto;
+    max-width: 1140px;
+    gap: 10px;
+    color: white;
+}
+.ftContainer{
+    width: 100%;
+    margin-top: 50px;
+}
+.ftContainer-3{
+    width: 100%;
+    margin-top: 50px;
+}
+.ftcH1{
+    margin-bottom: 20px;
+}
+.Emailinput{
+    width: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 1px;
+    height: 40px;
+    font-size: 16px;
+    outline: navajowhite;
+}
+.Emailbtn{
+    width: 10%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfa25e;
+    cursor: pointer;
+}
+.Email{
+    width: 80%;
+}
+.iconsXfooter{
+    font-size: 14px;
+    margin-top: 20px;
+    gap: 30px;
+}
+.copyright{
+    width: 100%;
+    margin-top: 20px;
+    color: white;
 }

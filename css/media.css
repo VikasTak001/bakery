@@ -161,6 +161,17 @@
     .hov {
         height: 100%;
     }
+    footer{
+        padding: 100px 30px;
+    }
+    .ftContainer{
+        width: 40%;
+        margin-top: 0;
+    }
+    .ftContainer-3{
+        width: 17%;
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 1676px) and (min-width: 991px) {

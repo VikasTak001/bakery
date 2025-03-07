@@ -11,10 +11,6 @@ var a = true;
 var body = document.querySelector('body');
 var vodo = document.querySelector('#vdo');
 var ain = document.querySelector('#ain');
-var mobi = 2;
-if (window.innerWidth <= 991){
-    mobi = 1;
-}
 
 slidMenuBlog.addEventListener(
     'click',
@@ -66,7 +62,14 @@ vdoOpen.addEventListener(
 $('.m5-container').slick(
     {
         infinite: true,
-        slidesToShow: mobi,
+        slidesToShow: 1,
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }],
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,

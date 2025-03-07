@@ -810,6 +810,8 @@ footer{
 }
 .m7Menues{
     max-width: 600px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 30px;
 }
 .m7mBoxesActive{

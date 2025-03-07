@@ -132,19 +132,34 @@
         flex-direction: row;
         padding: 100px;
     }
-    .m4-left{
+
+    .m4-left {
         width: 45%;
         margin: 0;
     }
-    .m4-right{
+
+    .m4-right {
         width: 50%;
         margin: 0;
     }
-    #vdoOpen video{
+
+    #vdoOpen video {
         width: inherit;
         height: inherit;
         max-height: 400px;
         max-width: 700px;
+    }
+
+    .m6-cboxes {
+        max-width: 30%;
+    }
+
+    .m6cb-img {
+        height: 220px;
+    }
+
+    .hov {
+        height: 100%;
     }
 }
 

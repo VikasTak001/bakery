@@ -21,7 +21,8 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background: #d1ab80;
 }
-.mobdots{
+
+.mobdots {
     display: block;
 }
 
@@ -564,9 +565,10 @@ header {
     transition: 1s;
     margin-right: 50px;
 }
+
 .m5-container {
     margin-top: 50px;
-    padding: 0px 0px 0px 40px;
+    padding: 0px 40px;
 }
 
 .m-5bg {
@@ -578,26 +580,32 @@ header {
     z-index: 0;
     position: absolute;
 }
-.big{
+
+.big {
     font-size: 18px;
 }
-.star{
+
+.star {
     font-size: 13px;
     margin-left: 2px;
 }
-.glow-star{
+
+.glow-star {
     color: rgb(197, 145, 13);
 }
-.m5-bText{
+
+.m5-bText {
     margin: 10px 0px;
     width: max-content;
 }
-.para-m5{
+
+.para-m5 {
     width: 100%;
     font-size: 13px;
     color: white;
 }
-.slick-dots li{
+
+.slick-dots li {
     width: 10px;
     cursor: pointer;
     height: 10px;
@@ -605,14 +613,105 @@ header {
     border-radius: 1px;
     transition: 1s;
 }
-.slick-dots .slick-active{
+
+.slick-dots .slick-active {
     background-color: #dfa25e;
     transform: scale(1.3);
 }
-.slick-dots li button,#slick-slide-control00{
+
+.slick-dots li button,
+#slick-slide-control00 {
     width: 10px;
     background-color: transparent;
     height: 10px;
     opacity: 0;
-    color: transparent;   
+    color: transparent;
+}
+
+.main-6 {
+    margin: auto;
+    max-width: 1140px;
+    padding: 100px 20px;
+}
+
+.m6-h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    color: #212121;
+    margin: 12px 0px;
+}
+
+.m6t1 {
+    width: 75%;
+    font-weight: 400;
+    color: #787878;
+    margin: auto;
+    text-align: center;
+}
+
+.m6-cboxes {
+    max-width: 100%;
+}
+
+.m6-Container {
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.m6cbleft {
+    gap: 15px;
+}
+
+.m6cbperson {
+    border-bottom: 1px solid #78787838;
+    margin: 1px 0px;
+}
+
+.m6cb-profileName {
+    font-weight: 300;
+    color: #313131;
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.m6-cbRight {
+    font-weight: 300;
+    color: #787878;
+    font-size: 14px;
+    gap: 15px;
+    margin-top: -7px;
+}
+
+.m6-cbComentIcon,
+.m6-cbLikeIcon {
+    gap: 5px;
+}
+
+.m6ct1 {
+    color: #787878;
+    font-weight: 300;
+}
+
+.m6-cboxes:hover .hover-color {
+    color: #dfa25e;
+}
+
+.m6cb-img {
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.hov {
+    transition: 0.3s;
+    width: 100%;
+    height: 300px;
+    /*100%*/
+}
+
+.m6-cboxes:hover .m6cb-img img {
+    transform: scale(1.1);
 }

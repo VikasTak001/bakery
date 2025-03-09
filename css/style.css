@@ -29,7 +29,8 @@ body::-webkit-scrollbar-thumb {
 .main {
     max-width: 100vw;
     margin: auto;
-    margin-top: 0px;/*-88*/
+    margin-top: 0px;
+    /*-88*/
     overflow: hidden;
     height: 80vh;
     background: url(../img/banner-bg.jpg) center center;
@@ -103,7 +104,8 @@ body::-webkit-scrollbar-thumb {
 .contact div {
     gap: 5px;
 }
-.topNav{
+
+.topNav {
     max-width: 1140px;
     margin: auto;
 }
@@ -120,7 +122,8 @@ header {
     left: 0;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.301);
 }
-.headerActive{
+
+.headerActive {
     width: 100%;
     max-width: 100%;
     top: 0;
@@ -729,29 +732,35 @@ header {
 .m6-cboxes:hover .m6cb-img img {
     transform: scale(1.1);
 }
-footer{
+
+footer {
     width: 100%;
     background-color: #04091f;
     padding: 0px 30px 50px 30px;
 }
-.footer{
+
+.footer {
     margin: auto;
     max-width: 1140px;
     gap: 10px;
     color: white;
 }
-.ftContainer{
+
+.ftContainer {
     width: 100%;
     margin-top: 50px;
 }
-.ftContainer-3{
+
+.ftContainer-3 {
     width: 100%;
     margin-top: 50px;
 }
-.ftcH1{
+
+.ftcH1 {
     margin-bottom: 20px;
 }
-.Emailinput{
+
+.Emailinput {
     width: 90%;
     padding: 5px 10px;
     border: none;
@@ -760,7 +769,8 @@ footer{
     font-size: 16px;
     outline: navajowhite;
 }
-.Emailbtn{
+
+.Emailbtn {
     width: 10%;
     height: 40px;
     display: flex;
@@ -769,37 +779,45 @@ footer{
     background-color: #dfa25e;
     cursor: pointer;
 }
-.Email{
+
+.Email {
     width: 80%;
 }
-.iconsXfooter{
+
+.iconsXfooter {
     font-size: 14px;
     margin-top: 20px;
     gap: 30px;
 }
-.copyright{
+
+.copyright {
     width: 100%;
     margin-top: 20px;
     color: white;
 }
-.mainAboutUs{
+
+.mainAboutUs {
     max-height: 40vh;
 }
-.bannerAboutUS{
+
+.bannerAboutUS {
     padding: 20px;
     height: 40vh;
 }
-.main-7{
+
+.main-7 {
     width: 100%;
     padding: 100px 20px;
     background: url(../img/pattern-bg.jpg) center center;
     background-size: cover;
 }
-.main-7Child{
+
+.main-7Child {
     margin: auto;
     max-width: 1140px;
 }
-.m7mBoxes{
+
+.m7mBoxes {
     padding: 7px 25px;
     color: black;
     transition: 0.3s;
@@ -807,17 +825,20 @@ footer{
     font-weight: 500;
     font-size: 16px;
 }
-.m7Menues{
+
+.m7Menues {
     max-width: 650px;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-evenly;
 }
-.m7mBoxesActive{
+
+.m7mBoxesActive {
     color: white;
     background-color: #d1ab80;
 }
-.m7cBoxes{
+
+.m7cBoxes {
     background: white;
     padding: 10px 50px 30px 40px;
     border-radius: 10px;
@@ -825,60 +846,75 @@ footer{
     flex-direction: column;
     gap: 30px;
 }
-.m7cB-left{
+
+.m7cB-left {
     max-width: 100%;
 }
-.m7cB-lH1{
+
+.m7cB-lH1 {
     margin: 10px 0px 15px 0px;
 }
-.m7cB-right{
+
+.m7cB-right {
     width: 70%;
     margin: auto;
 }
-.m7container{
+
+.m7container {
     margin-top: 100px;
     visibility: hidden;
     opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
-    
+
 }
-.m7containerActive{
+
+.m7containerActive {
     visibility: visible;
     opacity: 1;
     position: static;
 
 }
-.para-m7{
+
+.para-m7 {
     width: 100%;
     font-size: 14px;
 }
-.m7cB-rBBox2{
+
+.m7cB-rBBox2 {
     margin-top: 15px;
 }
-.para-m6t{
+
+.para-m6t {
     width: 100%;
 }
-.m6TeamContainer{
+
+.m6TeamContainer {
     max-width: 1140px;
     margin: 100px auto;
     gap: 20px;
 }
-.m6tcBoxes{
-    width: 46.5%;
+
+.m6tcBoxes {
+    width: 45%;
 }
-.m6tcbT1,.m6tcbT2{
+
+.m6tcbT1,
+.m6tcbT2 {
     text-align: center;
 }
-.m6tcbT1{
+
+.m6tcbT1 {
     margin-top: 20px;
 }
-.m6tcbImg img{
+
+.m6tcbImg img {
     width: 100%;
     height: 100%;
 }
-.m6tcbimgOverlay{
+
+.m6tcbimgOverlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -890,15 +926,377 @@ footer{
     left: 0;
     background-color: #d1ab809f;
 }
-.m6tcbSocial{
+
+.m6tcbSocial {
     color: white;
     gap: 25px;
     font-size: 22px;
 }
-.m6tcbImg{
+
+.m6tcbImg {
     overflow: hidden;
 }
-.m6tcbImg:hover .m6tcbimgOverlay{
+
+.m6tcbImg:hover .m6tcbimgOverlay {
     opacity: 1;
     visibility: visible;
+}
+
+.mainBlogHome {
+    height: 70vh;
+    background: url(../img/blog/blog-home-banner.jpg) center center;
+    background-size: cover;
+}
+
+.mbhH1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin: auto;
+    line-height: 50px;
+    max-width: 95%;
+}
+
+.chkBtnBH {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.chkBtnBH:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.main-8 {
+    max-width: 1140px;
+    margin: auto;
+    padding: 50px 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.m8Boxes {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.m8Boxes img {
+    width: 100%;
+    height: 100%;
+}
+
+.m8BOverlay {
+    position: absolute;
+    padding: 40px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+}
+
+.m8BOChild {
+    background: #000000dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    padding: 30px;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.hro {
+    margin: 5px auto;
+    background-color: #fff;
+}
+
+.m8BOverlay:hover .m8BOChild {
+    background-color: #d1ab80c7;
+}
+
+.main-9 {
+    max-width: 1140px;
+    margin: auto;
+    padding: 50px 20px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.m9ContainerLeft {
+    width: 100%;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m9CLTLeftChild {
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.m9CLBottom {
+    max-width: 555px;
+    justify-self: center;
+}
+
+.m9CLBT1 {
+    font-size: 25px;
+}
+
+.para-1 {
+    width: 100%;
+    text-align: left;
+    margin: 15px auto;
+}
+
+.m9CLBbtn {
+    padding: 7px 20px;
+    font-weight: 500;
+    background-color: #f8f8ff;
+    cursor: pointer;
+    max-width: max-content;
+    transition: 0.3s;
+}
+
+.m9CLBbtn:hover {
+    background-color: #d1ab80;
+    color: white;
+}
+
+.m9CLTLBBoxes {
+    gap: 10px;
+}
+
+.m9CLTLBBIcon {
+    font-size: 15px;
+}
+
+.m9CLTLBBT1 {
+    font-weight: 300;
+    font-size: 14px;
+    color: #787878;
+}
+
+.m9CLTLBottom {
+    margin-top: 40px;
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+.m9CLTop {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 555px;
+    margin: auto;
+}
+
+.m9CLTLTp {
+    flex-direction: row;
+}
+
+.m9CLTRight {
+    text-align: center;
+}
+
+.m9ContainerRight {
+    border: 1px solid #ededed;
+    width: 100%;
+    height: max-content;
+    padding: 50px 5px;
+}
+
+.m9CRSearch {
+    background-color: #d1ab80;
+    overflow: hidden;
+    color: white;
+    border-radius: 50px;
+    width: 85%;
+    margin: 50px auto 0px auto;
+}
+
+.m9CRSearch input {
+    border: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    padding: 14px 0px;
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.m9CRSearch input::placeholder {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.m9CRSIcon {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hr-2 {
+    margin: 30px auto;
+    max-width: 90%;
+    background-color: #ededed;
+}
+
+.m9CRContainer-1 {
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.m9CRContainer-1 .bold {
+    color: #212121;
+    margin-top: 26px;
+}
+
+.iconsXblog {
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.iconsXblog i {
+    color: black;
+}
+
+.m9CRTitleBox {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    background-color: #d1ab80;
+    color: white !important;
+}
+
+.m9CRC2R-top {
+    margin: 5px 10px !important;
+}
+
+.m9CRC2Right .para-1 {
+    margin: 5px 10px;
+}
+
+.m9CRC2-1 {
+    margin-top: 10px;
+}
+
+.m9CRContainer-2 {
+    margin: auto;
+}
+
+.m9CRContainer-3 {
+    flex-direction: column;
+    width: 90%;
+    min-height: 250px;
+    background-color: #e2dada36;
+    margin: auto;
+}
+
+.m9CRC3T1 {
+    font-size: 23px;
+    color: #cccccc;
+    font-weight: 500;
+}
+
+.m9CRC4-1 {
+    margin: auto;
+    border-bottom: 2px dotted #cccccc;
+    padding: 12px 0px 7px 0px;
+    width: 90%;
+    transition: 0.3s;
+    font-size: 14px;
+    color: #787878;
+    font-weight: 300;
+}
+
+.m9CRC4-1:hover {
+    color: #d1ab80;
+    border-color: #d1ab80;
+}
+
+.m9CREmail {
+    max-width: 90%;
+    margin: auto;
+}
+
+.m9CREmail input::placeholder {
+    color: #ccd2d9;
+}
+
+.m9CREmail input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 80%;
+    font-size: 16px;
+    color: #ccd2d9;
+}
+
+.m9CREC-1 {
+    width: 75%;
+    border: 1px solid #ccd2d9;
+}
+
+.m9CREbtn {
+    background-color: #d1ab80;
+    max-width: 95px;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #d1ab80;
+    height: 100%;
+    padding: 10px;
+}
+
+.m9CREC1-1 {
+    color: #ccd2d9;
+    padding: 0px 10px;
+}
+
+.max-content {
+    width: max-content;
+}
+
+.m9CRContainer-5 {
+    max-width: 95%;
+    margin: auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.m9CRC5Boxes {
+    padding: 7px 10px;
+    background-color: #f8f8f8;
+    font-weight: 300;
+    font-size: 12px;
+    border: 1px solid #ededed;
+    transition: 0.3s;
+}
+
+.m9CRC5Boxes:hover {
+    color: white;
+    background-color: #d1ab80;
 }

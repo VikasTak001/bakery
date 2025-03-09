@@ -198,14 +198,79 @@
 
     .m7cB-right {
         width: 20%;
-        margin: 0; 
+        margin: 0;
         margin-top: 20px;
     }
-    .m6tcBoxes{
+
+    .m6tcBoxes {
         width: 22%;
     }
-    .main-6{
+
+    .main-6 {
         padding: 100px 20px;
+    }
+
+    .mainBlogHome {
+        height: 70vh;
+    }
+
+    .mbhH1 {
+        font-size: 45px;
+        max-width: 50%;
+        line-height: 50px;
+        font-weight: 600;
+    }
+
+    .main-8 {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .m8Boxes {
+        width: 30%;
+        overflow: hidden;
+        max-height: 200px;
+        position: relative;
+    }
+
+    .m8BOverlay {
+        position: absolute;
+        padding: 20px;
+    }
+
+    .m9CLTLTp {
+        flex-direction: column;
+    }
+
+    .m9CLTop {
+        flex-direction: row;
+        max-width: inherit;
+        margin: 0;
+    }
+
+    .m9CLTLBottom {
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .m9CLTLBBoxes {
+        justify-content: flex-end;
+    }
+
+    .m9ContainerLeft {
+        width: 64.5%;
+    }
+
+    .m9CLBottom {
+        justify-self: flex-end;
+    }
+
+    .main-9 {
+        flex-direction: row;
+    }
+
+    .m9ContainerRight {
+        width: 32%;
     }
 }
 
